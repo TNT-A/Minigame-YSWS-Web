@@ -18,8 +18,8 @@
             <a href="submissionPage.html">
               <img src="sprites/submit_cart_final.png"> 
             </a>
-            <a>
-                <img src="sprites/gallery_cart_final.png" class="coming_soon"> 
+            <a href="galleryPage.html">
+              <img src="sprites/gallery_cart_final.png"> 
             </a>
      </div>
 
@@ -27,10 +27,18 @@
         <a href="https://hackclub.com/" target="_blank">
             <img src = "sprites/flag-orpheus-top.png" alt="hackFlag" class="hanger">
         </a>
-        <img src = "sprites/logoPlaceholder.png" alt="minigameLogo" class="logo">
-        <h1 class="text">Gallery Page :speaking_head:</h1>
-        <h2 class="text">Not available right now, check back after the submission period is over!</h2>
-
+            <img src = "sprites/gallery_logo.png" alt="minigameLogo" class="logo">
+ 
+        <!-- Will Add Dropdown-->
+        <div class="submitline">
+         <select name="current_set" id="gamesVol" onChange="updateTable(this.value)">
+           <option value="jsonData1">Minigame Vol. 1</option>
+           <option value="jsonData2">Minigame Vol. 2</option>
+         </select>
+        </div>
+        
+      <div class="game-table-container">
+      </div>
 
      </div>
     <script src="js/script.js"></script>

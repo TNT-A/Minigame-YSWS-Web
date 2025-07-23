@@ -22,7 +22,7 @@ body {
 }
 
 .pagegallery {
-    background-color: aquamarine;
+    background-color: #3a2b52;
 }
 
 .pagesubmit {
@@ -81,7 +81,7 @@ h1 {
     margin-left:auto;
     margin-right: auto;
     margin-top: 0%;
-    margin-bottom: 0%;
+    margin-bottom: 1%;
     width: 100%;
     height: 25%;
     object-fit: contain;
@@ -199,3 +199,64 @@ h1 {
     margin-top: 20px;
 }
 
+#game-table {
+    font-family: 'pixel';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#game-table th{
+    background-color: #ffd82c;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+#game-table tr td {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+#game-table tr td img{
+    transition: transform .6s;
+    width: 250px;
+}
+
+#game-table tr td a:hover{
+    color: darkblue;
+}
+
+#game-table tr td img:hover{
+    opacity: 80%;
+}
+
+#game-table tr td img:focus:hover{
+    opacity: 100%;
+}
+
+#game-table tr td img:focus{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(3); 
+    object-fit: contain;
+}
+
+#game-table tbody tr:nth-child(odd) td {
+    background-color: #fffee9;
+}
+
+#game-table tbody tr:nth-child(even) td {
+    background-color: #fffbb7;;
+}
+
+#gamesVol {
+    background-color: #fffbb7;
+    font-family: 'pixel';
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    border-color: #ffd82c;
+    border-width: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,4 +1,4 @@
-var jsonData1 = `[
+[
     {
     "Name": "Orphbone",
     "Description": "Click and aim to shoot treats at the beloved Hack Club Mascot Orpheus, but watch out, cause he takes his food seriously!",
@@ -47,91 +47,5 @@ var jsonData1 = `[
     "Link": "https://shadowswap.vercel.app/", 
     "Image": "sprites/game_screenshots/shadow_game.png" 
     }
-    ]`;
-
-var jsonData2 = `[
-    {
-    "Name": "Orphbone",
-    "Description": "Click and aim to shoot treats at the beloved Hack Club Mascot Orpheus, but watch out, cause he takes his food seriously!",
-    "Link": "https://tnt-a.itch.io/orphbone", 
-    "Image": "sprites/game_screenshots/orphbone_logo_som.png" 
-    }
-    ]`;
-
-var current_set = jsonData1;
-data = JSON.parse(current_set);
-
-let col = [];
-
-const table = document.createElement("table");
-
-setTable()
-
-function setTable(){
-    for (let i = 0; i < data.length; i++) {
-        for(let key in data[i]){
-            if(col.indexOf(key) === -1){
-                col.push(key);
-            }
-        }
-    }
-
-    const thead = table.createTHead();
-    const tbody = table.createTBody();
-
-    table.setAttribute("id", "game-table");
-
-    let tr = thead.insertRow(-1);
-
-    for (let index = 0; index < col.length; index++) {
-        let th = document.createElement("th");
-        th.innerHTML = col[index];
-        tr.appendChild(th)
-    }
-
-    for (let i = 0; i < data.length; i++) {
-        tr = tbody.insertRow(-1);   
-        for (let j = 0; j < col.length; j++) {
-            let tabCell = tr.insertCell(-1);
-            
-            if(j==0){
-                const header = document.createElement("p")
-                header.textContent = data[i][col[j]]
-                header.style.fontSize = '30px';
-                header.style.fontWeight = 'bold';
-                tabCell.appendChild(header)
-            }
-
-            if(j==1){
-                const para = document.createElement("p")
-                para.textContent = data[i][col[j]]
-                para.style.fontSize = '20px';
-                tabCell.appendChild(para)
-            }
-
-            if(j==2){
-                const link = document.createElement("a")
-                link.href = data[i][col[2]];
-                link.textContent = data[i][col[2]];
-                link.target = "_blank";
-                tabCell.appendChild(link) 
-            }
-
-            if(j==3){
-                const img = document.createElement("img")
-                img.src = data[i][col[3]];
-                img.tabIndex = '0';
-                tabCell.appendChild(img) 
-            }
-        }
-    }
-    document.querySelector(".game-table-container").appendChild(table);
-}
-
-function updateTable(val){
-    table.innerHTML = " ";   
-    data = JSON.parse(this[val]);
-    setTable();
-    document.querySelector(".game-table-container").appendChild(table);
-}
-
+    
+    ]
