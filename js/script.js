@@ -1,11 +1,5 @@
 var jsonData1 = `[
     {
-    "Name": "Orphbone",
-    "Description": "Click and aim to shoot treats at the beloved Hack Club Mascot Orpheus, but watch out, cause he takes his food seriously!",
-    "Link": "https://tnt-a.itch.io/orphbone", 
-    "Image": "sprites/game_screenshots/orphbone_logo_som.png" 
-    },
-    {
     "Name": "Flappy Bird",
     "Description": "This is just the classic flappy bird game.",
     "Link": "https://alyalgendy.itch.io/flappy-bird", 
@@ -35,7 +29,7 @@ var jsonData1 = `[
     "Link": "https://betrayal-ludo.vercel.app/", 
     "Image": "sprites/game_screenshots/ludo_game.png" 
     },
-        {
+    {
     "Name": "Knight Adventure",
     "Description": "A mini game with one level featuring monsters and a player with normal blocks (and a level editor)",
     "Link": "https://knight-adventure-plum.vercel.app/", 
@@ -46,6 +40,78 @@ var jsonData1 = `[
     "Description": "Shadow Swap , A game where you have to switch Dimension while doing task , like mid air , mid walking ,mid running , any time when needed . ",
     "Link": "https://shadowswap.vercel.app/", 
     "Image": "sprites/game_screenshots/shadow_game.png" 
+    },
+    {
+    "Name": "Paper Samurai",
+    "Description": "Paper samurai is an innovative and visually striking combat game that blends the precision of traditional martial arts with the creative flair of paper folding origami. in this game players will use different attacks and different defense paper folding techniques in  order to make our paper warrior master samurai.",
+    "Link": "https://paper-samurai.vercel.app/", 
+    "Image": "sprites/game_screenshots/origami_game.png" 
+    },
+    {
+    "Name": "Rat Gems Pickup",
+    "Description": "You are a little rat! Try to collect all the gems before your time is up!",
+    "Link": "https://ninagit.itch.io/rat-gems-pickup", 
+    "Image": "sprites/game_screenshots/mouse_game.png" 
+    },
+    {
+    "Name": "Space Extraction",
+    "Description": "It is a 2D space ship maze game where player has to travel in space from one end to another at the same time player has to avoid space ships and other attacks too. this game has everything unlocked from levels to worlds. different world represent different difficulty and every world have 15 unique levels. it have special space theme which makes it attractive and eye pleasing.",
+    "Link": "https://space-extraction.vercel.app/", 
+    "Image": "sprites/game_screenshots/space_extraction_game.png" 
+    },
+    {
+    "Name": "Rotate Balls",
+    "Description": "A 2D maze ball game where you tilt the maze to guide a ball and collect targets. You can create custom maps, share and play with friends on the shared maps. It has easy to hard difficulties and more maps coming soon.",
+    "Link": "https://rotate-balls.vercel.app/", 
+    "Image": "sprites/game_screenshots/rotation_game.png" 
+    },
+    {
+    "Name": "Echo Runner",
+    "Description": "Memory parkour game with a twist , You can use ultrasonic waves to detect blocks to play along.",
+    "Link": "https://echorunner.vercel.app/", 
+    "Image": "sprites/game_screenshots/echo_game.png" 
+    },
+    {
+    "Name": "Quantum Detective",
+    "Description": "It is a story game where you are the detective and you have to find the murderer the game is complex consists of different realities/ worlds and not typical story games but actually have more than that.",
+    "Link": "https://quantum-detective.vercel.app/", 
+    "Image": "sprites/game_screenshots/detective_game.png" 
+    },
+    {
+    "Name": "Infinite 2048",
+    "Description": "A retro-themed twist on the classic 2048 game with infinite progression, evolving tiles, and bonus",
+    "Link": "https://magsnake.itch.io/2048", 
+    "Image": "sprites/game_screenshots/2048_game.png" 
+    },
+    {
+    "Name": "Terminal Warrior",
+    "Description": "It is a game where you have to jump from platforms fight enemies and bosses as well, game consists  of 4 different worlds every world changes after 5 levels and game have total 20 levels. it also have a little character customization and the game is terminal themed.",
+    "Link": "https://terminal-warrior.vercel.app/", 
+    "Image": "sprites/game_screenshots/cyber_game.png" 
+    },
+    {
+    "Name": "Polar Push",
+    "Description": "A game where you can make the particle move by magnetic forces , pull or push . Positive for pull and negative push.",
+    "Link": "https://polarpush.vercel.app/", 
+    "Image": "sprites/game_screenshots/magnet_game.png" 
+    },
+    {
+    "Name": "Trap Track",
+    "Description": "A Timepass game , to play with 4 friends, pass and play . Roll the dice to move and counter the different types of traps . Enjoy killing time with your favorite people.",
+    "Link": "https://traptrack.vercel.app/", 
+    "Image": "sprites/game_screenshots/trap_track_game.png" 
+    },
+    {
+    "Name": "Kolor Connect",
+    "Description": "A modern puzzle game inspired by Flow Free with unique twists and features.",
+    "Link": "https://kolor-connect.vercel.app/", 
+    "Image": "sprites/game_screenshots/color_game.jfif" 
+    },
+    {
+    "Name": "Farm Runner",
+    "Description": "Farm Runner Game. Feed the animals while rnning and be careful not to bump into them! Feed them by pressing space and move left and right by using the arrows",
+    "Link": "https://ninagit.itch.io/farm-runner", 
+    "Image": "sprites/game_screenshots/farm_game.png" 
     }
     ]`;
 
